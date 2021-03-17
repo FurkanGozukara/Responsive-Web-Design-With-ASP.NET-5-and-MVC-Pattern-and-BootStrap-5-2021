@@ -1,0 +1,34 @@
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\bin\x64\Debug\net5.0\appsettings.Development.json
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\bin\x64\Debug\net5.0\appsettings.json
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\bin\x64\Debug\net5.0\lecture 2.exe
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\bin\x64\Debug\net5.0\lecture 2.deps.json
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\bin\x64\Debug\net5.0\lecture 2.runtimeconfig.json
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\bin\x64\Debug\net5.0\lecture 2.runtimeconfig.dev.json
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\bin\x64\Debug\net5.0\lecture 2.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\bin\x64\Debug\net5.0\ref\lecture 2.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\bin\x64\Debug\net5.0\lecture 2.pdb
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\bin\x64\Debug\net5.0\lecture 2.Views.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\bin\x64\Debug\net5.0\lecture 2.Views.pdb
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\lecture 2.csprojAssemblyReference.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\lecture 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\lecture 2.AssemblyInfoInputs.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\lecture 2.AssemblyInfo.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\lecture 2.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\lecture 2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\lecture 2.RazorAssemblyInfo.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\lecture 2.RazorAssemblyInfo.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\staticwebassets\lecture 2.StaticWebAssets.Manifest.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\staticwebassets\lecture 2.StaticWebAssets.xml
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\scopedcss\bundle\lecture 2.styles.css
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\lecture 2.TagHelpers.input.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\lecture 2.TagHelpers.output.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\lecture 2.RazorCoreGenerate.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\lecture 2.RazorTargetAssemblyInfo.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\lecture 2.RazorTargetAssemblyInfo.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\lecture 2.Views.pdb
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\lecture 2.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\ref\lecture 2.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\lecture 2.pdb
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\lecture 2.genruntimeconfig.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 2\obj\x64\Debug\net5.0\lecture 2.csproj.CopyComplete

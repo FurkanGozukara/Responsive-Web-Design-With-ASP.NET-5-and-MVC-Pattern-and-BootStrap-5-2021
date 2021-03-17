@@ -1,0 +1,350 @@
+﻿@model lecture_1.Models.Movie
+@using lecture_1.Models
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@Model.Title</title>
+</head>
+<body>
+    <span style="font-size:25px; color:rebeccapurple;">The movie <b>@Model.Title</b> was released @Model.ReleaseDate.ToLongDateString()</span>
+
+    <br />
+    @{
+        string name = "Furkan Gözükara";
+    }
+    <p>Hello, world - my name is @name and the current date is: @DateTime.Now.ToString()</p>
+
+    @if (Context.Request.Query["test"].ToString().Length > 0)
+    {
+        <p>Lots of markup here...</p>
+        <p>Test value: <b>@Context.Request.Query["test"]</b></p>
+        <p>And even more here...</p>
+    }
+
+    @{
+        var helloWorld = "<b>Hello, world!</b><script>alert('you are hacked!')</script>";
+    }
+
+    <p>@helloWorld</p>
+    @*<p>@Html.Raw(helloWorld)</p>*@
+
+    Hello, @(name.Substring(0, 6)). Your age is: <b>@(17 + 5 + 3 + 4 + 5).</b>
+
+    @{
+        var sum = 32 + 10;
+        var greeting = "Hello, world!";
+        var text = "";
+        for (int i = 0; i < 5; i++)
+        {
+            text += greeting + " The result is: " + sum + i + "\n<br/>";
+        }
+    }
+
+    <h2>CodeBlocks</h2>
+    Text: @Html.Raw(text)
+
+    @{
+        var helloWorld2 = "This is a code block...";
+
+        <div>This is a tag with plain text and <b>markup</b> inside of it... @helloWorld2 </div>
+
+        //This is plain text! this is invalid because you can not type plain text inside code block
+
+        @:This is plain text! @*this covers only single line*@
+
+
+
+
+
+
+
+
+        <text>This is plain text as well, and we can <br />
+            even span multiple lines, if needed!</text>
+
+        @*
+            Here's a Razor server-side comment
+            It won't be rendered to the browser
+            It can span multiple lines
+        *@
+    }
+
+    @{
+        @*
+            Here's a Razor server-side comment
+        *@
+
+        // C# style single-line comment
+
+        /*
+        C# style multiline comment
+        It can span multiple lines
+        */
+    }
+
+    @*where we left https://asp.mvc-tutorial.com/razor/basic-razor-syntax/*@
+
+    <hr>
+    <hr>
+
+    @{
+        List<string> listofNames = new List<string> { "toros", "university", "mersin", "school" };
+    }
+
+    <span>@listofNames[0]</span>
+
+    <div>@listofNames[2]</div>
+
+    @{
+        <ol>
+            @foreach (var item in listofNames)
+            {
+                <li>something @item</li>
+            }
+        </ol>
+    }
+
+
+    @if (DateTime.Now.Year == 2042)
+    {
+        <span>The year 2042 has finally arrived!</span>
+    }
+
+    @if (DateTime.Now.Year == 2021)
+    {
+        <span style="display:block;">The year 2021 has finally arrived!</span>
+
+        <text>this means that</text>
+    }
+
+    @if (DateTime.Now.Year >= 2042)
+    {
+        <span>The year 2042 has finally arrived!</span>
+    }
+    else
+    {
+        <span>We're still waiting for the year of 2042...</span>
+    }
+
+    <br>
+    <hr>
+
+    @{
+        List<string> names = new List<string>()
+{
+        "John Doe",
+        "Jane Doe",
+        "Joe Doe",
+        "Jenna Doe",
+        "Doggy Doe"
+        };
+
+        int counter = 0;
+    }
+
+    <ul>
+        <li>following is for loop</li>
+        @for (int i = 0; i < names.Count; i++)
+        {
+            <li>@names[i]</li>
+        }
+    </ul>
+
+    <ul>
+        <li>following is while loop</li>
+        @while (counter < names.Count)
+        {
+            <li>@names[counter++]</li>
+        }
+    </ul>
+
+    <ul>
+        <li>following is do while loop</li>
+        @{
+            counter = 0;
+        }
+        @do
+        {
+            <li>@names[counter++]</li>
+        } while (counter < names.Count);
+    </ul>
+
+
+    <ul>
+        @for (int i = 0; i < names.Count; i++)
+        {
+            <li>@names[i]</li>
+
+            @if (i >= 2)
+            {
+                <li>...and so on</li>
+
+                break;
+            }
+        }
+    </ul>
+
+    @for (int i = 0; i < 100; i++)
+    {
+        switch (i)
+        {
+            case 1:
+                <div>number is 1</div>
+                break;
+            case 42:
+                <div>number is 42</div>
+                break;
+        }
+    }
+
+
+    @switch (DateTime.Now.DayOfWeek)
+    {
+        case DayOfWeek.Monday:
+            <span>Uh-oh... Monday</span>
+            break;
+        case DayOfWeek.Friday:
+            <span>Weekend coming up!</span>
+            break;
+        case DayOfWeek.Saturday:
+        case DayOfWeek.Sunday:
+            <span>Finally weekend!</span>
+            break;
+        default:
+            <span>Nothing special about this day...</span>
+            break;
+    }
+
+
+    @{
+
+        List<webUser> myWebUsers = new List<webUser>
+{
+                new webUser { Birthday = new DateTime(2000, 12, 1), FirstName = "Ayşe", LastName = "Demirci" },
+                new webUser { FirstName = "Mehmet", LastName = "Boyacı" },
+                new webUser { Birthday = new DateTime(1997, 3, 5), FirstName = "Hale", LastName = "Güçlü" }
+        };
+
+        void RenderUserInfo(webUser user)
+        {
+            <div class="user-info" style="color:brown;">
+                @user.LastName, @user.FirstName [@user.Birthday.ToShortDateString()]
+            </div>
+        }
+
+    }
+
+    <h2>Users [sorted asc by first name]</h2>
+
+    @foreach (webUser myUser in myWebUsers.OrderBy(x => x.FirstName))
+    {
+        RenderUserInfo(myUser);
+    }
+
+    <h2>Users [sorted asc by last name]</h2>
+    @foreach (webUser myUser in myWebUsers.OrderBy(x => x.LastName))
+    {
+        RenderUserInfo(myUser);
+    }
+
+    <h2>Users [sorted asc by birth date]</h2>
+    @foreach (webUser myUser in myWebUsers.OrderBy(x => x.Birthday))
+    {
+        RenderUserInfo(myUser);
+    }
+
+
+    @{
+        ViewData["Title"] = "TemplatedDelegate";
+
+        <h1>view data title = @ViewData["Title"]</h1>
+
+        Func<dynamic, object> movieTemplate = @<div>@item.Title [@item.ReleaseDate.ToShortDateString()]</div>;
+
+string formatMovie(Movie myMovie)
+{
+return $"<div>{myMovie.Title.ToString()} [{myMovie.ReleaseDate.ToShortDateString()}]</div>";
+}
+
+List<Movie> movies = new List<Movie>();
+movies.Add(new Movie() { Title = "The Godfather", ReleaseDate = new DateTime(1972, 3, 24) });
+movies.Add(new Movie() { Title = "Forrest Gump", ReleaseDate = new DateTime(1994, 7, 6) });
+movies.Add(new Movie() { Title = "Fight Club", ReleaseDate = new DateTime(1999, 10, 15) });
+
+    }
+
+    @foreach (var movie in movies)
+    {
+        @movieTemplate(movie)
+    }
+
+    <div>students in ViewData</div>
+    <ul>
+        @foreach (var student in ViewData["Student"] as List<string>)
+        {
+            <li>@student</li>
+        }
+    </ul>
+
+    <div>students in ViewBag</div>
+    <ul>
+        @foreach (var student in ViewBag.Student)
+        {
+            <li>@student</li>
+        }
+    </ul>
+
+    @{
+        GlobalClasses.customGlobalClass csGClass = new GlobalClasses.customGlobalClass();
+        csGClass.setRank(34545342);
+        <div style="font-size:22px;">@csGClass.returnRank()</div>
+    }
+
+    <div>method way of movies - default html encoded</div>
+    @foreach (var movie in movies)
+    {
+        @formatMovie(movie);
+    }
+
+    <div>method way of movies - html raw</div>
+    @foreach (var movie in movies)
+    {
+        @Html.Raw(formatMovie(movie));
+    }
+
+
+    @using (Html.BeginForm("Edit", "Home", FormMethod.Post))
+    {
+        <input type="hidden" value="our first method action example" name="srText" />
+        <input type="submit" value="post example" />
+    }
+
+    @using (Html.BeginForm("ContentExample", "Home", FormMethod.Post))
+    {
+        <input type="hidden" value="test of ContentExample" name="srText" />
+        <input type="submit" value="post example of ContentExample" />
+    }
+
+    <hr /><hr />
+
+    <div style="text-align:center; padding:10px;">
+
+        <form action="/Home/ContentExample" method="post">
+            <input type="hidden" name="srText" value="test of ContentExample with html form - post method"><br>
+            <input type="submit" value="submit form example with classic html post method">
+        </form>
+
+        <form action="/Home/ContentExample" method="get">
+            <input type="hidden" name="srText" value="test of ContentExample with html form - get method"><br>
+            <input type="submit" value="submit form example with classic html get method">
+        </form>
+    </div>
+</body>
+</html>

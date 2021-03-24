@@ -1,0 +1,42 @@
+﻿@model lecture_1.Models.Product
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div>thread id @System.Threading.Thread.CurrentThread.ManagedThreadId</div>
+before calling greeting async @DateTime.Now
+<hr />
+@Html.PartialAsync("_Greeting")
+<hr />
+after calling greeting async @DateTime.Now
+<hr />
+before calling greeting awaiting @DateTime.Now
+<hr />
+@await Html.PartialAsync("_Greeting")
+<hr />
+after calling greeting awaiting @DateTime.Now
+<hr />
+default product cshtml
+<hr />
+@{
+
+    string vrTitle = (Model == null ? ViewBag.Title : Model.Title);
+    double vrPrice = (Model == null ? ViewBag.Price : Model.Price);
+    int vrId = (Model == null ? ViewBag.Id : Model.Id);
+}
+
+<br>
+<h1>@vrTitle</h1>
+Price: @vrPrice.ToString("N0")
+<br>
+Id=@vrId.ToString("N0")
+<br>
+@ViewBag?.OtherName
+
+<br />
+<br />
+@for (int i = 0; i < 3; i++)
+{
+    @await Html.PartialAsync("_Greeting", Model, new ViewDataDictionary(ViewData) { { "index", i } })
+}

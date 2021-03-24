@@ -1,0 +1,87 @@
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\lecture 3.exe
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\appsettings.Development.json
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\appsettings.json
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Files\banner.jpg
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\lecture 3.deps.json
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\lecture 3.runtimeconfig.json
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\lecture 3.pdb
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\grpc_csharp_ext.x64.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\lecture 3.Views.pdb
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\lecture 3.Views.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Grpc.Core.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Grpc.Core.Api.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Humanizer.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Microsoft.CodeAnalysis.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\System.Composition.AttributedModel.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\System.Composition.Convention.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\System.Composition.Hosting.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\System.Composition.Runtime.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\System.Composition.TypedParts.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 3\obj\Release\net5.0\win-x64\PubTmp\Out\lecture 3.dll

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>lecture_1</RootNamespace>
+    <Platforms>AnyCPU;x64</Platforms>
+    <UserSecretsId>789d432c-9332-4b43-bd24-42e82b4d0421</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Files\banner.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Files\banner.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.Core" Version="2.36.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+</Project>

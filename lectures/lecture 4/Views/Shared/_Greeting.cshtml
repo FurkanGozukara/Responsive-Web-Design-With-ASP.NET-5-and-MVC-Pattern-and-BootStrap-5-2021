@@ -1,0 +1,32 @@
+﻿<div>Hello, world!</div>
+<div>Today is @DateTime.Now.ToString()</div>
+
+@{
+    if (Model != null)
+        if (Model is lecture_1.Models.Product)
+        {
+            var vrModel = Model as lecture_1.Models.Product;
+
+            <div>model type is product and product price = @vrModel.Price</div>
+        }
+
+    if (ViewData != null)
+    {
+        if (ViewData.ContainsKey("index"))
+        {
+            <div>iteration count is @ViewData["index"]</div>
+        }
+        if (ViewData.ContainsKey("test"))
+        {
+            <div>test is @ViewData["test"]</div>
+        }
+    }
+
+    if (Model != null)
+        if (Model is lecture_1.Models.Movie)
+        {
+            var vrModel = Model as lecture_1.Models.Movie;
+
+            <div>model type is movie and movie release date = @vrModel.ReleaseDate</div>
+        }
+}

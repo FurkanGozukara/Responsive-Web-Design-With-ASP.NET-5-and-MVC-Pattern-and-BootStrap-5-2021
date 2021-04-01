@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@section Footer {
+    <span style="font-size:30px; font-style:italic;">
+        this is the footer page of index of lecture 5
+    </span>
+
+}
+
+@{
+    ViewBag.Title = "index page of lecture 5";
+}
+
+@{
+    Layout = "_LayoutSecond";//this is working because layout is placed under views/shared with cshtml extension. therefore, i didnt have to provide full path ~/Views/Shared/_MasterLayout.cshtml
+}
+
+Hello world Lecture 5 Index
+
+@{
+    StringBuilder myBuilder = new StringBuilder();
+}

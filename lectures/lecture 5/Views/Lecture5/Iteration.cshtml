@@ -1,0 +1,35 @@
+﻿
+
+@model lecture_1.Models.SchoolLibrary
+
+@{
+    Layout = "_MasterLayout";//this is working because layout is placed under views/shared with cshtml extension. therefore, i didnt have to provide full path ~/Views/Shared/_MasterLayout.cshtml
+}
+
+
+iterating books on this page
+<ul>
+    <li>
+        Library Manager : @Model.srManagerName
+    </li>
+    @foreach (var bookName in Model.lstNameofBooks)
+    {
+        <li>
+            @bookName
+        </li>
+    }
+
+    @foreach (DataRow bookName in Model.dtSomeVals.Rows)
+    {
+        <li>
+            <table>
+                <tr><td>@bookName[0].ToString()</td><td>@bookName[1].ToString() TL</td></tr>
+                <tr><td>@bookName[0].ToString()</td><td>@bookName[1].formatNumber() TL</td></tr>
+            </table>
+        </li>
+    }
+
+    @{ 
+        StringBuilder buildSomething = new StringBuilder();
+    }
+</ul>

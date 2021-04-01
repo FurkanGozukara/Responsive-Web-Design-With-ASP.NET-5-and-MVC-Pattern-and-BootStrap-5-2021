@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div style="background-color:brown;">
+        @RenderBody()
+    </div>
+    <div>title of the page is : @ViewBag.Title</div>
+
+    <div style="background-color:cornflowerblue; padding:5px; font-size:16px;">
+        @RenderSection("Footer", required: false)
+        @if (!IsSectionDefined("Footer"))
+        {
+            <span>Generic footer message!</span>
+        }
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 9 cmd\bin\Debug\net5.0\lecture 9 cmd.exe
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 9 cmd\bin\Debug\net5.0\lecture 9 cmd.deps.json
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 9 cmd\bin\Debug\net5.0\lecture 9 cmd.runtimeconfig.json
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 9 cmd\bin\Debug\net5.0\lecture 9 cmd.runtimeconfig.dev.json
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 9 cmd\bin\Debug\net5.0\lecture 9 cmd.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 9 cmd\bin\Debug\net5.0\ref\lecture 9 cmd.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 9 cmd\bin\Debug\net5.0\lecture 9 cmd.pdb
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 9 cmd\bin\Debug\net5.0\lecture 9.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 9 cmd\obj\Debug\net5.0\lecture 9 cmd.csprojAssemblyReference.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 9 cmd\obj\Debug\net5.0\lecture 9 cmd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 9 cmd\obj\Debug\net5.0\lecture 9 cmd.AssemblyInfoInputs.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 9 cmd\obj\Debug\net5.0\lecture 9 cmd.AssemblyInfo.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 9 cmd\obj\Debug\net5.0\lecture 9 cmd.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 9 cmd\obj\Debug\net5.0\lecture 9 cmd.csproj.CopyComplete
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 9 cmd\obj\Debug\net5.0\lecture 9 cmd.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 9 cmd\obj\Debug\net5.0\ref\lecture 9 cmd.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 9 cmd\obj\Debug\net5.0\lecture 9 cmd.pdb
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 9 cmd\obj\Debug\net5.0\lecture 9 cmd.genruntimeconfig.cache

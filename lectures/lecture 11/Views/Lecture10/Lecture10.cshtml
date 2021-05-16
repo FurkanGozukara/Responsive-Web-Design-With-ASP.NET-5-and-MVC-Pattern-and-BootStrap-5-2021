@@ -1,0 +1,120 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@using static lecture_9.Models.Lecture10
+
+@model lecture_9.Models.Lecture10
+
+<h1>@Model.srTitle</h1>
+
+counter: @Model.irCounter
+
+<br />
+
+<form method="post" asp-action="updateModelTitle" asp-controller="Lecture10">
+    <label asp-for="srTitle"></label>
+    <input asp-for="srTitle" value="" placeholder="type something here" class="form-control" style="font-weight: bold; font-size: 120%;" />
+    <input type="submit" value="send updated data" />
+</form>
+
+<form method="post" asp-route="updateV2" asp-route-irCounter="32" asp-route-irTest="11">
+    <input asp-for="srTitle" value="" placeholder="type something here" class="form-control" style="font-weight: bold; font-size: 120%;" />
+    <input type="submit" value="send updated data v2" />
+</form>
+
+
+<form method="post" asp-route="updateV2" asp-route-irCounter="32" asp-route-irTest="11">
+    <ul>
+
+        <li>
+            <label asp-for="PhoneNumber"></label>
+            <input asp-for="PhoneNumber" placeholder="+xx-xxx-xxx-xxxx" pattern="[+][0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+        </li>
+        <li>
+            <label asp-for="MailAddress"></label>
+            <input asp-for="MailAddress" placeholder="x@y.com" />
+        </li>
+        <li>
+            <label asp-for="Password"></label>
+            <input asp-for="Password" />
+        </li>
+        <li>
+            <label asp-for="Birthday"></label>
+            <input asp-for="Birthday" />
+        </li>
+        <li>
+            <label asp-for="IsActive"></label>
+            <input asp-for="IsActive" />
+        </li>
+        <li>
+            <label asp-for="BigLetter"></label>
+            <textarea asp-for="BigLetter" rows="5"></textarea>
+        </li>
+        <li>
+            <input type="submit" value="send updated data v2" />
+        </li>
+    </ul>
+</form>
+
+<hr />
+
+<div id="fragmentExample">If you need to specify the host name to be used in the link, e.g. google.com. Usually not necessary because this value can be fetched from the website automatically if needed. Example:</div>
+
+<form method="post" asp-route="updateV2" asp-route-irCounter="32" asp-route-irTest="11">
+
+<textarea asp-for="srDescription" cols="25" rows="3"></textarea>
+    <br />
+    <br />
+<textarea asp-for="srDescription" style="height: 40px; width: 200px;"></textarea>
+    <br />   <br />
+
+    <select asp-for="srCountry" asp-items="@(new SelectList(Model.lstCountry))"></select>
+    <br />   <br />
+
+    <select asp-for="srSelectedCountryCode" asp-items="@(new SelectList(listOfCountryClass,"srCountryCodes","srCountryName"))"></select>
+
+    <br />   <br />
+
+    <select asp-for="validationStatus" asp-items="@(Html.GetEnumSelectList<lecture_9.Models.Lecture10.WebUserValidationStatus>())"></select>
+
+    <br />   <br />
+
+    <select asp-for="SelectedMovieId" asp-items="@(new SelectList(Model.MoviesList,"Value","Text","","Group.Name"))"></select>
+
+
+    <br />   <br />
+
+    <select asp-for="listSelectedMovieIds" asp-items="@(new SelectList(Model.MoviesList,"Value","Text","","Group.Name"))"></select>
+
+    <br />
+
+    <a asp-controller="Lecture7" asp-action="ListStuff">Return some stuff from lecture 7</a>
+    <br />
+    <a asp-route="ListSomeStuff">Return some stuff from lecture 7</a>
+    <br />
+    <br />
+    @foreach (SelectListItem vrPerMovie in Model.MoviesList)
+    {
+        <a asp-route="listMovieDetails" asp-route-srMoveId="@vrPerMovie.Value">click here to find out this movie name</a>
+        <br />
+    }
+    <br />
+    <br />
+    @foreach (SelectListItem vrPerMovie in Model.MoviesList)
+    {
+        //this is for generating SEO friendly URLs
+        <a href="/lecture10/moviedetails/@vrPerMovie.Value">click here to find out this movie name</a>
+        <br />
+    }
+    <br />
+    <br />
+    <a asp-route="/" asp-fragment="fragmentExample">check fragment example</a>
+    <input type="submit" value="send updated data v2" />
+
+    <div asp-validation-summary="All"></div>
+</form>
+
+

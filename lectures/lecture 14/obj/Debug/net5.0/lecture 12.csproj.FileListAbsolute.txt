@@ -1,0 +1,78 @@
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\appsettings.json
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\efpt.config.json
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\lecture 12.exe
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\lecture 12.deps.json
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\lecture 12.runtimeconfig.json
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\lecture 12.runtimeconfig.dev.json
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\lecture 12.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\ref\lecture 12.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\lecture 12.pdb
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\lecture 12.Views.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\lecture 12.Views.pdb
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\lecture 12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\lecture 12.AssemblyInfoInputs.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\lecture 12.AssemblyInfo.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\lecture 12.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\lecture 12.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\lecture 12.RazorAssemblyInfo.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\lecture 12.RazorAssemblyInfo.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\staticwebassets\lecture 12.StaticWebAssets.Manifest.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\staticwebassets\lecture 12.StaticWebAssets.xml
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\scopedcss\bundle\lecture 12.styles.css
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\lecture 12.TagHelpers.input.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\lecture 12.TagHelpers.output.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\lecture 12.RazorCoreGenerate.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\Razor\Views\article.cshtml.g.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\Razor\Views\attributes.cshtml.g.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\Razor\Views\Binding\Binding.cshtml.g.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\Razor\Views\Lecture10\Lecture10.cshtml.g.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\Razor\Views\Lecture7\Lec7_Index.cshtml.g.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\Razor\Views\Lecture8\Lecture8.cshtml.g.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\Razor\Views\Lecture9\Lecture9.cshtml.g.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\Razor\Views\routing.cshtml.g.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\Razor\Views\User\Details.cshtml.g.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\lecture 12.RazorTargetAssemblyInfo.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\lecture 12.RazorTargetAssemblyInfo.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\lecture 12.Views.pdb
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\lecture 12.csproj.CopyComplete
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\lecture 12.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\ref\lecture 12.dll
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\lecture 12.pdb
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\lecture 12.genruntimeconfig.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\lecture 12.csprojAssemblyReference.cache
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\Razor\Views\Error.cshtml.g.cs
+C:\Users\Furkan Gözükara\Desktop\mvc asp.net bootstrap\lectures\lecture 12\obj\Debug\net5.0\Razor\Views\Error404.cshtml.g.cs

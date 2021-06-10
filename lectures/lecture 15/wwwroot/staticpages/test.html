@@ -1,0 +1,1007 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    ​<picture>
+        <source srcset="~/images/single-img-six.png" type="image/svg+xml">
+        <img src="https://www.toros.edu.tr/toros/images/single-img-six.png" class="img-fluid img-thumbnail" alt="...">
+    </picture>
+    <h2 id="tables">Tables</h2>
+    <p>Tables are slightly adjusted to style <code>&lt;caption&gt;</code>s, collapse borders, and ensure consistent <code>text-align</code> throughout. Additional changes for borders, padding, and more come with <a href="/docs/5.0/content/tables/">the <code>.table</code> class</a>.</p>
+    <div class="bd-example">
+        <table>
+            <caption>
+                This is an example table, and this is its caption to describe the contents.
+            </caption>
+            <thead>
+                <tr>
+                    <th>Table heading</th>
+                    <th>Table heading</th>
+                    <th>Table heading</th>
+                    <th>Table heading</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                </tr>
+                <tr>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                </tr>
+                <tr>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                    <td>Table cell</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br />   <br />
+    <div class="borderClass">
+
+        <div class="container">
+            To switch directories, type <kbd>cd</kbd> followed by the name of the directory.<br>
+            To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>  <br />
+            <var>y</var> = <var>m</var><var>x</var> + <var>b</var>
+            <br />
+            <code>
+                &lt;p&gt;Sample text here...&lt;/p&gt;
+                &lt;p&gt;And another line of sample text here...&lt;/p&gt;
+            </code>
+
+            <pre><code>&lt;p&gt;Sample text here...&lt;/p&gt;
+&lt;p&gt;And another line of sample text here...&lt;/p&gt;
+</code></pre>
+
+            <ul>
+                <li>All lists have their top margin removed</li>
+                <li>And their bottom margin normalized</li>
+                <li>
+                    Nested lists have no bottom margin
+                    <ul>
+                        <li>This way they have a more even appearance</li>
+                        <li>Particularly when followed by more list items</li>
+                    </ul>
+                </li>
+                <li>The left padding has also been reset</li>
+            </ul>
+            <ol>
+                <li>Here&rsquo;s an ordered list</li>
+                <li>With a few list items</li>
+                <li>It has the same overall look</li>
+                <li>As the previous unordered list</li>
+            </ol>
+        </div>
+
+        <div class="bd-example">
+            <dl>
+                <dt>Description lists</dt>
+                <dd>A description list is perfect for defining terms.</dd>
+                <dt>Term</dt>
+                <dd>Definition for the term.</dd>
+                <dd>A second definition for the same term.</dd>
+                <dt>Another term</dt>
+                <dd>Definition for this other term.</dd>
+            </dl>
+        </div>
+        For example, <code>&lt;section&gt;</code> should be wrapped as inline.  <br />
+        <br />
+        <figure>
+            <blockquote class="blockquote">
+                <p>A well-known quote, contained in a blockquote element.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+            </figcaption>
+        </figure>
+        <br />
+        <br />
+        <blockquote class="blockquote">
+            <p>A well-known quote, contained in a blockquote element.</p>
+        </blockquote>
+        <br />
+        <br />
+        <h1>h1. Bootstrap heading</h1>
+        <h2>h2. Bootstrap heading</h2>
+        <h3>h3. Bootstrap heading</h3>
+        <h4>h4. Bootstrap heading</h4>
+        <h5>h5. Bootstrap heading</h5>
+        <h6>h6. Bootstrap heading</h6>
+        <br />
+        <br />
+        <form class="bd-example">
+            <fieldset>
+                <legend>Example legend</legend>
+                <p>
+                    <label for="input">Example input</label>
+                    <input type="text" id="input" placeholder="Example input">
+                </p>
+                <p>
+                    <label for="email">Example email</label>
+                    <input type="email" id="email" placeholder="test@example.com">
+                </p>
+                <p>
+                    <label for="tel">Example telephone</label>
+                    <input type="tel" id="tel">
+                </p>
+                <p>
+                    <label for="url">Example url</label>
+                    <input type="url" id="url">
+                </p>
+                <p>
+                    <label for="number">Example number</label>
+                    <input type="number" id="number">
+                </p>
+                <p>
+                    <label for="search">Example search</label>
+                    <input type="search" id="search">
+                </p>
+                <p>
+                    <label for="range">Example range</label>
+                    <input type="range" id="range" min="0" max="10">
+                </p>
+                <p>
+                    <label for="file">Example file input</label>
+                    <input type="file" id="file">
+                </p>
+                <p>
+                    <label for="select">Example select</label>
+                    <select id="select">
+                        <option value="">Choose...</option>
+                        <optgroup label="Option group 1">
+                            <option value="">Option 1</option>
+                            <option value="">Option 2</option>
+                            <option value="">Option 3</option>
+                        </optgroup>
+                        <optgroup label="Option group 2">
+                            <option value="">Option 4</option>
+                            <option value="">Option 5</option>
+                            <option value="">Option 6</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" value="">
+                        Check this checkbox
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                        Option one is this and that
+                    </label>
+                    <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                        Option two is something else that's also super long to demonstrate the wrapping of these fancy form controls.
+                    </label>
+                    <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                        Option three is disabled
+                    </label>
+                </p>
+                <p>
+                    <label for="textarea">Example textarea</label>
+                    <textarea id="textarea" rows="3"></textarea>
+                </p>
+                <p>
+                    <label for="date">Example date</label>
+                    <input type="date" id="date">
+                </p>
+                <p>
+                    <label for="time">Example time</label>
+                    <input type="time" id="time">
+                </p>
+                <p>
+                    <label for="password">Example password</label>
+                    <input type="password" id="password">
+                </p>
+                <p>
+                    <label for="datetime-local">Example datetime-local</label>
+                    <input type="datetime-local" id="datetime-local">
+                </p>
+                <p>
+                    <label for="week">Example week</label>
+                    <input type="week" id="week">
+                </p>
+                <p>
+                    <label for="month">Example month</label>
+                    <input type="month" id="month">
+                </p>
+                <p>
+                    <label for="color">Example color</label>
+                    <input type="color" id="color">
+                </p>
+                <p>
+                    <label for="output">Example output</label>
+                    <output name="result" id="output">100</output>
+                </p>
+                <p>
+                    <button type="submit">Button submit</button>
+                    <input type="submit" value="Input submit button">
+                    <input type="reset" value="Input reset button">
+                    <input type="button" value="Input button">
+                </p>
+                <p>
+                    <button type="submit" disabled>Button submit</button>
+                    <input type="submit" value="Input submit button" disabled>
+                    <input type="reset" value="Input reset button" disabled>
+                    <input type="button" value="Input button" disabled>
+                </p>
+            </fieldset>
+        </form>
+        <br />
+        <br />
+        <div class="row g-0">
+            <div class="col-sm-6 col-md-8">.col-sm-6 .col-md-8</div>
+            <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        </div>
+        <br />
+        <br />
+        <div class="container">
+            <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Row column</div>
+                </div>
+            </div>
+        </div>    <br />
+        <br />
+        <div class="container overflow-hidden mb-3">
+            <div class="row g-5">
+                <div class="col-6">
+                    <div class="p-3 border bg-light">Custom column padding</div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3 border bg-light">Custom column padding</div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3 border bg-light">Custom column padding</div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3 border bg-light">Custom column padding</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container overflow-hidden mb-3">
+            <div class="row gy-5">
+                <div class="col-6">
+                    <div class="p-3 border bg-light">Custom column padding</div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3 border bg-light">Custom column padding</div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3 border bg-light">Custom column padding</div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3 border bg-light">Custom column padding</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container overflow-hidden">
+            <div class="row gx-5">
+                <div class="col">
+                    <div class="p-3 border bg-light">Custom column padding Custom column padding Custom column padding Custom column padding Custom column padding</div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light">Custom column padding</div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+        <div class="container px-4">
+            <div class="row gx-5">
+                <div class="col-auto">
+                    <div class="p-2 border bg-light">Custom column padding</div>
+                </div>
+                <div class="col-auto">
+                    <div class="p-2 border bg-light">Custom column padding</div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-9">
+                    <p>
+                        A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+                    </p>
+
+                    <p>
+                        As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+                    </p>
+
+                    <p>
+                        And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+                    </p>
+                </div>
+                <div class="col-3 d-flex align-items-center justify-content-end">
+                    <img src="https://lms.toros.edu.tr/static/loginlogo/71C0916FE7C72F289292F01D8841FE7F.png" alt="...">
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <div class="container">
+            <img src="https://lms.toros.edu.tr/static/loginlogo/71C0916FE7C72F289292F01D8841FE7F.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+
+            <p>
+                A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+            </p>
+
+            <p>
+                As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+            </p>
+
+            <p>
+                And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+            </p>
+        </div>
+        <br />
+        <br />
+        <div class="col-3 bg-light p-3 border">
+            .col-3: width of 25%
+        </div>
+        <div class="col-sm-9 bg-light p-3 border">
+            .col-sm-9: width of 75% above sm breakpoint
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">.col-md-4</div>
+                <div class="col-md-4 ms-auto">.col-md-4 .ms-auto</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 ms-md-auto">.col-md-3 .ms-md-auto</div>
+                <div class="col-md-3 ms-md-auto">.col-md-3 .ms-md-auto</div>
+            </div>
+            <div class="row">
+                <div class="col-auto me-auto">.col-auto .me-auto</div>
+                <div class="col-auto">.col-auto</div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">.col-md-4</div>
+                <div class="col-md-4 offset-md-3">.col-md-4 .offset-md-3</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
+                <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 offset-md-3">.col-md-6 .offset-md-3</div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="container">
+            <div class="row">
+                <div class="col order-last">
+                    First in DOM, ordered last
+                </div>
+                <div class="col">
+                    Second in DOM, unordered
+                </div>
+                <div class="col order-first">
+                    Third in DOM, ordered first
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="container">
+            <div class="row">
+                <div class="col order-2">
+                    First in DOM, no order applied
+                </div>
+                <div class="col order-5">
+                    Second in DOM, with a larger order
+                </div>
+                <div class="col order-1">
+                    Third in DOM, with an order of 1
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+                <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+
+                <!-- Force next columns to break to new line -->
+                <div class="w-100 d-none d-md-block"></div>
+
+                <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+                <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="container">
+            <div class="row">
+                <div class="col-9">.col-9</div>
+                <div class="col-4">.col-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+                <div class="col-6">.col-6<br>Subsequent columns continue along the new line.</div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="container rowsize">
+            <div class="row justify-content-start">
+                <div class="col-4">
+                    justify-content-start
+                </div>
+                <div class="col-4">
+                    justify-content-start
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    justify-content-center
+                </div>
+                <div class="col-4">
+                    justify-content-center
+                </div>
+            </div>
+            <div class="row justify-content-end">
+                <div class="col-4">
+                    justify-content-end
+                </div>
+                <div class="col-4">
+                    justify-content-end
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-4">
+                    justify-content-around
+                </div>
+                <div class="col-4">
+                    justify-content-around
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    justify-content-between
+                </div>
+                <div class="col-4">
+                    justify-content-between
+                </div>
+            </div>
+            <div class="row justify-content-evenly">
+                <div class="col-4">
+                    justify-content-evenly
+                </div>
+                <div class="col-4">
+                    justify-content-evenly
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="container">
+            <div class="row" style="height:100px;">
+                <div class="col align-self-start">
+                    One of three columns
+                </div>
+                <div class="col align-self-center">
+                    One of three columns
+                </div>
+                <div class="col align-self-end">
+                    One of three columns
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="container">
+            <div class="row align-items-start" style="height:100px;">
+                <div class="col">
+                    start   One of three columns
+                </div>
+                <div class="col">
+                    One of three columns
+                </div>
+                <div class="col">
+                    One of three columns
+                </div>
+            </div>
+            <div class="row align-items-center" style="height:100px;">
+                <div class="col">
+                    center     One of three columns
+                </div>
+                <div class="col">
+                    One of three columns
+                </div>
+                <div class="col">
+                    One of three columns
+                </div>
+            </div>
+            <div class="row align-items-end" style="height:100px;">
+                <div class="col">
+                    end   One of three columns
+                </div>
+                <div class="col">
+                    One of three columns
+                </div>
+                <div class="col">
+                    One of three columns
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    Level 1: .col-sm-3
+                </div>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-8 col-sm-6">
+                            Level 2: .col-8 .col-sm-6
+                        </div>
+                        <div class="col-4 col-sm-6">
+                            Level 2: .col-4 .col-sm-6
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                @*//this defines the behaviour according to the screen size. if screen size is bigger than md 768px it is 4 columns if it is bigger than 576px it is 2 colum and if screen is smaller than 576px it is 1 col*@
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <div class="container">
+            <div class="row row-cols-4">
+                <div class="col">Column</div> @*3x / 12x since the parent class is 4 cols*@
+                <div class="col">Column</div> @*3x*@
+                <div class="col-6">Column</div> @*6x*@
+                <div class="col">Column</div> @*3x*@
+                @*since they are more than 12x at total, the last column always extend into the next row*@
+            </div>
+        </div>
+
+        <br />
+        <br />
+        <div class="container">
+            <div class="row row-cols-auto">
+                <div class="col">Column</div>
+                <div class="col">Column Column Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+            </div>
+        </div>
+
+        <br />
+        <br />
+
+        <div class="container">
+            <div class="row row-cols-3">
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+            </div>
+        </div>
+
+        <br />
+        <br />
+
+        <div class="container">
+            <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+            <div class="row">
+                <div class="col-md-8">.col-md-8</div>
+                <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+            </div>
+
+            <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+            <div class="row">
+                <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+                <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+                <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+            </div>
+
+            <!-- Columns are always 50% wide, on mobile and desktop -->
+            <div class="row">
+                <div class="col-6">.col-6</div>
+                <div class="col-6">.col-6</div>
+            </div>
+        </div>
+
+        <br />
+        <br />
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">col-sm-8</div>
+                <div class="col-sm-4">col-sm-4</div>
+            </div>
+            <div class="row">
+                <div class="col-sm">col-sm</div>
+                <div class="col-sm">col-sm</div>
+                <div class="col-sm">col-sm</div>
+            </div>
+            <div class="row">
+                <div class="col">col</div>
+                <div class="col">col</div>
+                <div class="col">col</div>
+            </div>
+            <div class="row">
+                <div class="col-xl">col-xl</div>
+                <div class="col-xl">col-xl</div>
+                <div class="col-xl">col-xl</div>
+            </div>
+        </div>
+
+        <br />
+
+        <div class="container">
+            <div class="row">
+                <div class="col">col</div>
+                <div class="col"> Variablesdfsdfsdfdsfdsfds width content</div>
+                @*this will span to a new row when the screen size is too small to display single word*@
+                <div class="col">VariablesdfsdfsdfdsfdsfdsVariablesdfsdfsdfdsfdsfds</div>
+                <div class="col">col</div>
+            </div>
+            <div class="row">
+                <div class="col-8">col-8</div>
+                <div class="col-4">col-4</div>
+            </div>
+        </div>
+        <br /><br />
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col col-lg-2">
+                    1 of 3 -content-md-center
+                </div>
+                <div class="col-md-auto">
+                    Variable width content   Variable width content
+                </div>
+                <div class="col col-lg-2">
+                    3 of 3
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    1 of 3
+                </div>
+                <div class="col-md-auto">
+                    Variable width content
+                </div>
+                <div class="col col-lg-2">
+                    3 of 3
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-xs">
+                    1 of 3
+                </div>
+                <div class="col-auto">
+                    Variable width content   Variable width content  Variable width content  Variable width content
+                </div>
+                <div class="col-xs">
+                    3 of 3
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    @*this gets 2x column*@
+                    1 of 3
+                </div>
+                <div class="col-8">
+                    @*this is 8x colum*@
+                    2 of 3 (wider)
+                </div>
+                <div class="col">
+                    @*this is 2x colum and total column is 12*@
+                    3 of 3
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @*this gets 3.5x column*@
+                        1 of 3
+                    </div>
+                    <div class="col-5">
+                        @*this gets 5x column*@
+                        2 of 3 (wider)
+                    </div>
+                    <div class="col">
+                        @*this gets 3.5x column*@
+                        3 of 3
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <table>
+            <tr>
+                <td>
+                    Column
+                </td>
+                <td>
+                    Column
+                </td>
+                <td>
+                    Column
+                </td>
+            </tr>
+        </table>
+
+        Column
+        <br />
+        <br />
+        <div class="container-lg">
+            <div class="row">
+                <div class="col border border-2">
+                    Column
+                </div>
+                <div class="col border border-2">
+                    Column
+                </div>
+            </div>
+            <div class="container-sm">
+                <div class="row">
+                    <div class="col border border-2">
+                        Column
+                    </div>
+                    <div class="col border border-2">
+                        Column
+                    </div>
+                    <div class="col border border-2">
+                        Column
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="container-fluid border border-primary border-2">
+            Use .container-fluid for a full width container, spanning the entire width of the viewport.
+        </div>
+        <div class="container-sm border border-primary border-2">100% wide until small breakpoint</div>
+        <div class="container-md border border-primary border-2">100% wide until medium breakpoint</div>
+        <div class="container-lg border border-primary border-2">100% wide until large breakpoint</div>
+        <div class="container-xl border border-primary border-2">100% wide until extra large breakpoint</div>
+        <div class="container-xxl border border-primary border-2">100% wide until extra extra large breakpoint</div>
+    </div>
+
+    <figure>
+        <blockquote class="blockquote">
+            <p>A well-known quote, contained in a blockquote element.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+        </figcaption>
+    </figure>
+    <br />
+    <br />
+    <blockquote class="blockquote">
+        <p>A well-known quote, contained in a blockquote element.</p>
+    </blockquote>
+    <br />
+    <br />
+    <h1>h1. Bootstrap heading</h1>
+    <h2>h2. Bootstrap heading</h2>
+    <h3>h3. Bootstrap heading</h3>
+    <h4>h4. Bootstrap heading</h4>
+    <h5>h5. Bootstrap heading</h5>
+    <h6>h6. Bootstrap heading</h6>
+    <br />
+    <br />
+
+
+    <form class="bd-example">
+        <fieldset>
+            <legend>Example legend</legend>
+            <p>
+                <label for="input">Example input</label>
+                <input type="text" id="input" placeholder="Example input">
+            </p>
+            <p>
+                <label for="email">Example email</label>
+                <input type="email" id="email" placeholder="test@example.com">
+            </p>
+            <p>
+                <label for="tel">Example telephone</label>
+                <input type="tel" id="tel">
+            </p>
+            <p>
+                <label for="url">Example url</label>
+                <input type="url" id="url">
+            </p>
+            <p>
+                <label for="number">Example number</label>
+                <input type="number" id="number">
+            </p>
+            <p>
+                <label for="search">Example search</label>
+                <input type="search" id="search">
+            </p>
+            <p>
+                <label for="range">Example range</label>
+                <input type="range" id="range" min="0" max="10">
+            </p>
+            <p>
+                <label for="file">Example file input</label>
+                <input type="file" id="file">
+            </p>
+            <p>
+                <label for="select">Example select</label>
+                <select id="select">
+                    <option value="">Choose...</option>
+                    <optgroup label="Option group 1">
+                        <option value="">Option 1</option>
+                        <option value="">Option 2</option>
+                        <option value="">Option 3</option>
+                    </optgroup>
+                    <optgroup label="Option group 2">
+                        <option value="">Option 4</option>
+                        <option value="">Option 5</option>
+                        <option value="">Option 6</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" value="">
+                    Check this checkbox
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                    Option one is this and that
+                </label>
+                <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                    Option two is something else that's also super long to demonstrate the wrapping of these fancy form controls.
+                </label>
+                <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                    Option three is disabled
+                </label>
+            </p>
+            <p>
+                <label for="textarea">Example textarea</label>
+                <textarea id="textarea" rows="3"></textarea>
+            </p>
+            <p>
+                <label for="date">Example date</label>
+                <input type="date" id="date">
+            </p>
+            <p>
+                <label for="time">Example time</label>
+                <input type="time" id="time">
+            </p>
+            <p>
+                <label for="password">Example password</label>
+                <input type="password" id="password">
+            </p>
+            <p>
+                <label for="datetime-local">Example datetime-local</label>
+                <input type="datetime-local" id="datetime-local">
+            </p>
+            <p>
+                <label for="week">Example week</label>
+                <input type="week" id="week">
+            </p>
+            <p>
+                <label for="month">Example month</label>
+                <input type="month" id="month">
+            </p>
+            <p>
+                <label for="color">Example color</label>
+                <input type="color" id="color">
+            </p>
+            <p>
+                <label for="output">Example output</label>
+                <output name="result" id="output">100</output>
+            </p>
+            <p>
+                <button type="submit">Button submit</button>
+                <input type="submit" value="Input submit button">
+                <input type="reset" value="Input reset button">
+                <input type="button" value="Input button">
+            </p>
+            <p>
+                <button type="submit" disabled>Button submit</button>
+                <input type="submit" value="Input submit button" disabled>
+                <input type="reset" value="Input reset button" disabled>
+                <input type="button" value="Input button" disabled>
+            </p>
+        </fieldset>
+    </form>
+    <br />
+    <br />
+
+    <h1>hello this page is static</h1>
+
+    <br />
+    Pterogra  <img src="~/images/1954-Pterogra.png" /> <!--this does not work for html-->
+    <br />
+    <!--this below method is the best way of referencing root path-->
+    Tsunidle <img src="/images/769-Tsunidle.png" /> <!--this works for static html-->
+    <br />
+    <!--this below method is the way of referencing relative path-->
+    Tokroach  <img src="images/55-Tokroach.png" /> <!--this does not work for static html-->
+    <br />
+    Klactipede <img src="../images/56-Klactipede.png" /> <!--this works for static html-->
+</body>
+</html>

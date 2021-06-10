@@ -1,0 +1,44 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model lecture_9.Models.Lecture14
+
+@{
+    if (Model.newToDoTask.Id != 0)
+    {
+        <h1>Task Id: @Model.newToDoTask.Id</h1>
+        <h2>Task Description: @Model.newToDoTask.Title</h2>
+        <h3>Task Is Done Status: @Model.newToDoTask.IsDone.ToString()</h3>
+    }
+
+}
+
+<br />
+This below form postbacks all of the attributes of model to update in database
+<br />
+<form method="post" asp-route="UpdateInsertNewToDoTask">
+    <input type="hidden" asp-for="newToDoTask.Id" />
+    <input type="hidden" asp-for="newToDoTask.AddDate" />
+    <input type="hidden" asp-for="newToDoTask.IsDone" />
+
+    <label asp-for="newToDoTask.Title"></label>
+    <input asp-for="newToDoTask.Title" placeholder="enter task title" class="form-control" style="font-weight: bold; font-size: 120%;" />
+    <input type="submit" value="@(Model.newToDoTask.Id == 0 ? "Add New Task" : "Update Currently Displayed Task")" />
+</form>
+
+
+<br />
+This below form postbacks only title and id to update in database
+<br />
+<form method="post" asp-route="UpdateInsertNewToDoTask2">
+    <input type="hidden" asp-for="newToDoTask.Id" />
+
+    <label asp-for="newToDoTask.Title"></label>
+    <input asp-for="newToDoTask.Title" placeholder="enter task title" class="form-control" style="font-weight: bold; font-size: 120%;" />
+    <input type="submit" value="@(Model.newToDoTask.Id == 0 ? "Add New Task" : "Update Currently Displayed Task")" />
+</form>
+<br />
+@await Html.PartialAsync("/Views/Lecture14/_ListTaskItems.cshtml", Model)

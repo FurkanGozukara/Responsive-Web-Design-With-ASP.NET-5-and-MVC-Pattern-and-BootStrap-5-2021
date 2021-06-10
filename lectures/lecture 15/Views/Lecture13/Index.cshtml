@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model lecture_9.Models.Lecture13
+HttpContext_Request_Query : @Html.Raw(Model.HttpContext_Request_Query)@*this will remove encoding of html*@
+<br />
+<br />
+HttpContext_Request_QueryString : @Model.HttpContext_Request_QueryString
+<br />
+<br />
+FormProperties : @Model.FormProperties
+<br />
+<br />
+CarId : @Model.CarId
+<br />
+<br />
+CarName : @Model.CarName
+<br />
+<br />
+<label asp-for="firstTimeVisitDate"></label> @Model.firstTimeVisitDate
+<br />
+<br />
+<form method="post" asp-route="lecture13update">
+
+    <label asp-for="CarId"></label>
+    <input asp-for="CarId" value="" placeholder="enter car id integer" class="form-control" style="font-weight: bold; font-size: 120%;" />
+
+    <label asp-for="CarName"></label>
+    <input asp-for="CarName" value="" placeholder="enter car name string" class="form-control" style="font-weight: bold; font-size: 120%;" />
+    <input type="submit" value="send data back to server with model binding" />
+</form>
+<br />
+<br />
+<form method="post" action="/lecture13/updateLegacy">
+    <label for="CarId">Car Id:</label>
+    <input type="number" id="CarId" name="CarId" />
+
+    <label for="CarName">Car Name:</label>
+    <input type="text" id="CarName" name="CarName" />
+
+    <button type="submit">send data back to server with legacy way</button>
+</form>

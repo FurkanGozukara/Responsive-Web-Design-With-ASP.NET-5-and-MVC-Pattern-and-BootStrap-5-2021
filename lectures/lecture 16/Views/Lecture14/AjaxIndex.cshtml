@@ -1,0 +1,64 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@*https://www.learnrazorpages.com/razor-pages/ajax/unobtrusive-ajax*@
+
+@model lecture_9.Models.Lecture14
+
+<style>
+    .popup {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+</style>
+
+<form data-ajax-method="post" data-ajax="true" data-ajax-begin="showLoading" asp-route="UpdateInsertNewToDoTask" data-ajax-complete="loadListOfItems">
+    <input type="hidden" asp-for="newToDoTask.Id" />
+    <input type="hidden" asp-for="newToDoTask.AddDate" />
+    <input type="hidden" asp-for="newToDoTask.IsDone" />
+
+    <label asp-for="newToDoTask.Title"></label>
+    <input asp-for="newToDoTask.Title" placeholder="enter task title" class="form-control" style="font-weight: bold; font-size: 120%;" />
+    <input type="submit" value="@(Model.newToDoTask.Id == 0 ? "Add New Task" : "Update Currently Displayed Task")" />
+</form>
+
+
+<div id="listOfTasks">
+
+
+</div>
+
+<div id="loading" class="popup" style="display:none;"><img src="~/images/Fidget-spinner.gif" /></div>
+
+<script>
+    function loadListOfItems() {
+
+        console.log('loadListOfItems is called');
+
+    $.ajax({
+        url: "@Url.Action("AjaxListing", "Lecture14")",
+        type: "GET",
+        success: function (partialViewResult) {
+            $("#listOfTasks").html(partialViewResult);
+        }
+    });
+
+        hideLoading();
+    }
+
+    loadListOfItems();
+
+    function showLoading() {
+        $('#loading').show();
+    }
+
+    function hideLoading() {
+        $('#loading').hide();
+    }
+</script>

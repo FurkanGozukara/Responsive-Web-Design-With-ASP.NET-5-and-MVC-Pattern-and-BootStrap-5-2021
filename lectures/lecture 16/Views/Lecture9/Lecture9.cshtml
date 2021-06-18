@@ -1,0 +1,102 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+<h1>Lecture 9 Main Page</h1>
+
+@model lecture_9.Models.Lecture9
+
+@using (var form = Html.BeginForm("updateLecture9Model", "Lecture9"))
+{
+
+    <div class="form-check">
+        @Html.LabelFor(m => m.irUserId)
+        @Html.TextBoxFor(m => m.irUserId)
+        @Html.ValidationMessageFor(m => m.irUserId)
+    </div>
+    <div class="form-check">
+        @Html.LabelFor(m => m.srFirstName)
+        @Html.TextBoxFor(m => m.srFirstName, null, new { @placeholder = "enter your name" })
+        @Html.ValidationMessageFor(m => m.srFirstName)
+    </div>
+    <div class="form-check">
+        @Html.LabelFor(m => m.srLastName)
+        @Html.TextBoxFor(m => m.srLastName)
+        @Html.ValidationMessageFor(m => m.srLastName)
+    </div>
+    <div class="form-check">
+        @Html.LabelFor(m => m.srEmail)
+        @Html.TextBoxFor(m => m.srEmail)
+
+
+        @Html.LabelFor(m => m.srEmailRepeated)
+        @Html.TextBoxFor(m => m.srEmailRepeated)
+        <br />
+        <span style="background-color:blueviolet">  @Html.ValidationMessageFor(m => m.srEmail)</span>
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.dtBirthDay)
+        @Html.TextBoxFor(m => m.dtBirthDay, "{0:yyyy-MM-dd}", new { type = "date" })
+        @Html.ValidationMessageFor(m => m.dtBirthDay)
+    </div>
+
+
+
+    <input type="submit" value="Submit" />
+
+    <div>
+        @Html.ValidationSummary()
+    </div>
+}
+
+@if (Model.srPostMessage != null)
+{
+    <div style="color:red;">@Model.srPostMessage</div>
+}
+
+
+<form class="col-6  was-validated" method="post" asp-controller="Lecture9" asp-action="updateLecture9Model">
+
+    <div class="position-relative">
+        <label class="form-label" asp-for="irUserId"></label>   <input class="form-control is-invalid" value="@Model.irUserId" asp-for="irUserId" placeholder="please enter user id" required />
+        <span asp-validation-for="irUserId" style="color: red;"></span>
+    </div>
+
+    <div class="position-relative">
+        <label class="form-label" asp-for="srFirstName"></label>   <input class="form-control is-invalid" value="@Model.srFirstName" asp-for="srFirstName" placeholder="please enter your first name" required />
+        <div class="valid-tooltip" asp-validation-for="srFirstName"></div>
+    </div>
+
+    <div class="position-relative">
+        <label class="form-label" asp-for="srLastName"></label>   <input class="form-control is-invalid" value="@Model.srLastName" asp-for="srLastName" required />
+        <span asp-validation-for="srLastName" style="color: red;"></span>
+    </div>
+
+    <div class="position-relative">
+        <label class="form-label" asp-for="srEmail"></label>   <input class="form-control is-invalid" value="@Model.srEmail" asp-for="srEmail" required />
+        <span asp-validation-for="srEmail" style="color: red;"></span>
+
+        <label class="form-label" asp-for="srEmailRepeated"></label>   <input class="form-control is-invalid" value="@Model.srEmailRepeated" asp-for="srEmailRepeated" required />
+        <span asp-validation-for="srEmailRepeated" style="color: red;"></span>
+    </div>
+
+    <div class="form-check">
+        <label class="form-label" asp-for="dtBirthDay"></label>   <input class="form-control is-invalid" type="date" value="@Model.dtBirthDay.ToString("yyyy-MM-dd")" asp-for="dtBirthDay" required />
+        <span asp-validation-for="dtBirthDay" style="color: red;"></span>
+    </div>
+
+    <br />
+    <input type="submit" value="add user" />
+
+    <div class="invalid-feedback" asp-validation-summary="All"></div>
+</form>
+
+@if (Model.srPostMessage != null)
+{
+    <div style="color:red;">@Model.srPostMessage</div>
+}

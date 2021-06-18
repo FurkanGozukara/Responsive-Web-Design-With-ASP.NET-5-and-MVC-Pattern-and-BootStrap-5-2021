@@ -1,0 +1,13 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<br />
+Title: @(Configuration.GetSection("Website").GetValue<string>("Title"))
+<br />
+Version: @(Configuration.GetSection("Website").GetValue<string>("Version"))
+<br/>
+Options title: @OptionsAccessor.Value.Title
+<br />
+<h1>custom 404 error not found page</h1>

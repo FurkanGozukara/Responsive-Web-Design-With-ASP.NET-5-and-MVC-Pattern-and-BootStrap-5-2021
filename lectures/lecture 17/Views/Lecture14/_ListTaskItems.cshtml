@@ -1,0 +1,62 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model lecture_9.Models.Lecture14
+
+
+<div> this below table is fully asynchronous with ajax</div>
+
+<table>
+    @foreach (var item in Model.lstAllToDoItems)
+    {
+        <tr>
+            <td>
+                <input type="checkbox" checked="@item.IsDone" onclick="window.location.href = '/lecture14/IsDone/@item.Id';" />
+                <a href="/lecture14/EditTask/@item.Id">
+                    @item.Title
+                </a>
+            </td>
+            <td class="text-right">
+                @item.AddDate.ToShortDateString()
+            </td>
+            @{
+                var deleteMsg = "Are you sure to delete " + item.Title + " ?";
+                deleteMsg = "'" + System.Web.HttpUtility.JavaScriptStringEncode(deleteMsg) + "'";
+            }
+
+            <td class="text-center">
+                <a data-ajax="true"  data-ajax-complete="loadListOfItems" href="/lecture14/Delete/@item.Id" onclick="return confirm(@deleteMsg);" class="btn btn-sm btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
+
+<div> this below table is not fully asynchronous with ajax</div>
+
+<table>
+    @foreach (var item in Model.lstAllToDoItems)
+    {
+        <tr>
+            <td>
+                <input type="checkbox" checked="@item.IsDone" onclick="window.location.href = '/lecture14/IsDone/@item.Id';" />
+                <a href="/lecture14/EditTask/@item.Id">
+                    @item.Title
+                </a>
+            </td>
+            <td class="text-right">
+                @item.AddDate.ToShortDateString()
+            </td>
+            @{
+                var deleteMsg = "Are you sure to delete " + item.Title + " ?";
+                deleteMsg = "'" + System.Web.HttpUtility.JavaScriptStringEncode(deleteMsg) + "'";
+            }
+
+            <td class="text-center">
+                <a href="/lecture14/Delete/@item.Id" onclick="return confirm(@deleteMsg);" class="btn btn-sm btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

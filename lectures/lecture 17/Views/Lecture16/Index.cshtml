@@ -1,0 +1,1068 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<style>
+    .carousel-item {
+        transition: transform 2s ease, opacity .5s ease-out !important;
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url("../images/right-arrow.svg") !important;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+
+    .carousel-control-next-icon {
+        background-image: url("../images/right-arrow.svg") !important;
+    }
+
+    .customClassForDropDown {
+        height: 300px;
+        overflow-y: auto;
+    }
+</style>
+<!DOCTYPE html>
+
+
+<link href="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.css" rel="stylesheet">
+<link href="https://unpkg.com/bootstrap-table@1.18.3/dist/extensions/page-jump-to/bootstrap-table-page-jump-to.min.css" rel="stylesheet">
+
+<script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.js"></script>
+<script src="https://unpkg.com/bootstrap-table@1.18.3/dist/extensions/page-jump-to/bootstrap-table-page-jump-to.min.js"></script>
+
+<table id="table"
+       data-show-columns="true"
+       data-pagination="true"
+       data-search="true"
+       data-show-jump-to="true"
+       data-show-jump-to-bypages="true"
+       data-url="https://examples.wenzhixin.net.cn/examples/bootstrap_table/data"
+       data-side-pagination="server">
+    <thead>
+        <tr>
+            <th data-field="id" data-sortable="true">ID</th>
+            <th data-field="name" data-sortable="true">Item Name</th>
+            <th data-field="price" data-sortable="true">Item Price</th>
+        </tr>
+    </thead>
+</table>
+
+<script>
+    $(function () {
+        $('#table').bootstrapTable()
+    })
+</script>
+
+<nav aria-label="Page navigation example">
+    <div class="container">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link p-0" href="#" aria-label="Previous" >
+                    @*<span class="carousel-control-prev-icon" style="width:25px; height:25px;"></span>*@
+                    <img class="w-25 h-25" style="    
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+" src="/images/right-arrow.svg" />
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+            <li class="page-item">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle btn-dark" type="button" data-bs-toggle="dropdown">
+                        Jump
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                        <li class="page-item"><a class="dropdown-item page-item" href="#">3</a></li>
+                        <li class="page-item"><a class="dropdown-item page-item" href="#">4</a></li>
+                        <li class="page-item"><a class="dropdown-item page-item" href="#">5</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+
+
+
+
+    </div>
+
+
+</nav>
+
+<a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+    Link with href
+</a>
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+    Button with data-bs-target
+</button>
+
+<div class="offcanvas offcanvas-top" data-bs-backdrop="false" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+        </div>
+        <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+        <h5 class="text-white h4">Collapsed content</h5>
+        <span class="text-muted">Toggleable via the navbar brand.</span>
+    </div>
+</div>
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</nav>
+
+<nav class="navbar  sticky-top navbar-expand-lg navbar-dark bg-dark m-5">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="/">  <img src="https://static.monstermmorpg.com/images/banner/banner-100x50.png" /> MonsterMMORPG</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu customClassForDropDown" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">Messages</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Settings</button>
+    </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+    <div class="tab-pane fade active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+    <div class="tab-pane fade" id="messages" role="tabpanel" aria-labelledby="messages-tab">...</div>
+    <div class="tab-pane fade" id="settings" role="tabpanel" aria-labelledby="settings-tab">...</div>
+</div>
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-selected="true">Home</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-selected="false">Profile</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-selected="false">Contact</button>
+    </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">home</div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">profile</div>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">contact</div>
+</div>
+
+<ul class="nav nav-tabs navbar-expand-md">
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+</ul>
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+</ul>
+
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+    Tooltip on top
+</button>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">
+    Tooltip on right
+</button>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+    Tooltip on bottom
+</button>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+    Tooltip on left
+</button>
+
+<button type="button" class="btn btn-primary gg1" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@@mdo">Open modal for @@mdo</button>
+<button type="button" class="btn btn-primary gg1" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@@fat">Open modal for @@fat</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@@getbootstrap">Open modal for @@getbootstrap</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h5>Popover in a modal</h5>
+                <p>This <a data-bs-toggle="popover" href="#" role="button" class="btn btn-secondary popover-test" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</a> triggers a popover on click.</p>
+                <hr>
+                <h5>Tooltips in a modal</h5>
+                <p><a href="#" class="tooltip-test" data-bs-toggle="tooltip" title="Tooltip">This link</a> and <a href="#" data-bs-toggle="tooltip" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+
+                <form>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+</button>
+
+
+<div id="exampleModal" class="modal fade " data-bs-backdrop="static" tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>       <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>       <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+                <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<ul class="list-group list-group-horizontal">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+</ul>
+
+<ul class="list-group">
+    <li class="list-group-item">
+        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+        First checkbox
+    </li>
+    <li class="list-group-item">
+        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+        Second checkbox
+    </li>
+    <li class="list-group-item">
+        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+        Third checkbox
+    </li>
+    <li class="list-group-item">
+        <input id="item2" class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+
+        <label for="item2">Fourth checkbox</label>
+    </li>
+    <li class="list-group-item">
+        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+        Fifth checkbox
+    </li>
+</ul>
+<div class="list-group col-5">
+    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+        <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">List group item heading</h5>
+            <small>3 days ago</small>
+        </div>
+        <p class="mb-1">Some placeholder content in a paragraph.</p>
+        <small>And some small print.</small>
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">List group item heading</h5>
+            <small class="text-muted">3 days ago</small>
+        </div>
+        <p class="mb-1">Some placeholder content in a paragraph.</p>
+        <small class="text-muted">And some muted small print.</small>
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">List group item heading</h5>
+            <small class="text-muted">3 days ago</small>
+        </div>
+        <p class="mb-1">Some placeholder content in a paragraph.</p>
+        <small class="text-muted">And some muted small print.</small>
+    </a>
+</div>
+
+<ol class="list-group list-group-numbered col-3">
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <div class="fw-bold">Subheading</div>
+            Cras justo odio
+        </div>
+        <span class="badge bg-primary rounded-pill">14</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <div class="fw-bold">Subheading</div>
+            Cras justo odio
+        </div>
+        <span class="badge bg-primary rounded-pill">14</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <div class="fw-bold">Subheading</div>
+            Cras justo odio
+        </div>
+        <span class="badge bg-primary rounded-pill">14</span>
+    </li>
+</ol>
+
+<div class="list-group list-group-flush ">
+    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+        The current link item
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+    <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+    <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A disabled link item</a>
+</div>
+
+<ul class="list-group list-group-numbered">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+    <li class="list-group-item">A fourth item</li>
+    <li class="list-group-item active">And a fifth one</li>
+</ul>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li>
+
+
+                            <form class="px-4 py-3">
+                                <div class="mb-3">
+                                    <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                                </div>
+                                <div class="mb-3">
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                        <label class="form-check-label" for="dropdownCheck">
+                                            Remember me
+                                        </label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Sign in</button>
+                            </form>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">New around here? Sign up</a>
+                            <a class="dropdown-item" href="#">Forgot password?</a>
+
+                        </li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Example split danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger">Action</button>
+    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item bg-danger" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+</div>
+
+<p>
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+</p>
+<div class="row">
+    <div class="col">
+        <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <div class="card card-body">
+                Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="collapse multi-collapse" id="multiCollapseExample2">
+            <div class="card card-body">
+                Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </div>
+        </div>
+    </div>
+</div>
+
+<p>
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Link with href
+    </a>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        Button with data-bs-target
+    </button>
+</p>
+<div class="collapse" id="collapseExample">
+    <div class="card card-body">
+        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+    </div>
+</div>
+
+<br />
+<br />
+
+<div class="container">
+    <h2>Modal Example</h2>
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        tests
+        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+    </div>
+</div>
+<button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+
+<div id="carouselExampleControls" class="carousel slide col-3 m-5 text-center carousel-fade" data-bs-ride="carousel" data-bs-interval="100">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner border border-warning border-2">
+        <div class="carousel-item active">
+            <img src="https://static.monstermmorpg.com/images/monsters-images-300-300/45-Dracby.png" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://static.monstermmorpg.com/images/monsters-images-300-300/46-Seagon.png" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://static.monstermmorpg.com/images/monsters-images-300-300/47-Bermudrac.png" alt="...">
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<div class="card-group">
+    <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card bg-danger border-warning">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+</div>
+
+<div class="card border-primary mb-3" style="max-width: 18rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body text-primary">
+        <h5 class="card-title">Primary card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+</div>
+<div class="card border-secondary mb-3" style="max-width: 18rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body text-secondary">
+        <h5 class="card-title">Secondary card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+</div>
+<div class="card border-success mb-3" style="max-width: 18rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body text-success">
+        <h5 class="card-title">Success card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+</div>
+<div class="card border-danger mb-3" style="max-width: 18rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body text-danger">
+        <h5 class="card-title">Danger card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+</div>
+<div class="card border-warning mb-3" style="max-width: 18rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body">
+        <h5 class="card-title">Warning card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+</div>
+<div class="card border-warning border-3  bg-danger mb-3" style="max-width: 18rem;">
+    <div class="card-header">Header danger</div>
+    <div class="card-body">
+        <h5 class="card-title">Info card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+</div>
+<div class="card border-light mb-3" style="max-width: 18rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body">
+        <h5 class="card-title">Light card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+</div>
+<div class="card border-dark mb-3" style="max-width: 18rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body text-dark">
+        <h5 class="card-title">Dark card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+</div>
+
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="..." alt="...">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card bg-dark text-white col-4">
+    <img src="https://static.monstermmorpg.com/images/Wallpapers/1280x720/RPG-MMO-Game-Monster-MMORPG-Wallpaper.png" class="card-img" alt="...">
+    <div class="card-img-overlay">
+        <h5 class="card-title bg-dark">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Last updated 3 mins ago</p>
+    </div>
+</div>
+
+<div class="card text-center container p-0">
+    <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="true" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div>
+
+<div class="card w-100">
+    <div class="card-header">
+        Featured
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+    <img src="https://static.monstermmorpg.com/images/monsters-images-300-300/2299-Vezardon.png" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+    </ul>
+    <div class="card-body">
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+    </div>
+</div>
+
+<div class="card mb-5" style="width: 18rem;">
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+    </ul>
+</div>
+
+<div class="card" style="width: 18rem;">
+    <img src="https://static.monstermmorpg.com/images/monsters-images-300-300/2299-Vezardon.png" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div>
+
+<div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+    <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btncheck1">Checkbox 1</label>
+
+    <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btncheck2">Checkbox 2</label>
+
+    <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+    <label class="btn btn-outline-primary" for="btncheck3">Checkbox 3</label>
+</div>
+
+<div>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-primary">Left</button>
+        <button type="button" class="btn btn-primary">Middle</button>
+        <button type="button" class="btn btn-primary">Right</button>
+    </div>
+</div>
+
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" disabled class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+
+<nav style="        --bs-breadcrumb-divider: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgDQoJIHZpZXdCb3g9IjAgMCAzMzQuNTA1IDMzNC41MDUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMzNC41MDUgMzM0LjUwNTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggc3R5bGU9ImZpbGw6I0ZGRTYwMDsiIGQ9Ik0yMDguODk5LDkxLjIxYy01LjQ2Ni01LjI1LTUuNDY2LTEzLjc1NywwLTE5LjAwN2M1LjQ2Ni01LjI1LDE0LjMzMS01LjI1LDE5Ljc5NiwwbDk4Ljk4NSw5NS4wNDkNCglsLTk4Ljk4Myw5NS4wNDljLTUuNDY2LDUuMjUtMTQuMzI5LDUuMjUtMTkuNzk2LDBjLTUuNDY2LTUuMjUtNS40NjYtMTMuNzU3LDAtMTkuMDE0bDc5LjE4Ni03Ni4wMzVMMjA4Ljg5OSw5MS4yMXoiLz4NCjxwYXRoIHN0eWxlPSJmaWxsOiM2MDJGNzU7IiBkPSJNMjE4LjgsMjczLjAzNmMtNS4yOTQsMC4wMDItMTAuNTkzLTEuOTM1LTE0LjYyNi01LjgwOGMtNC0zLjgzOC02LjItOC45Ni02LjItMTQuNDIzDQoJYzAtNS40NjYsMi4yLTEwLjU5NSw2LjE5My0xNC40MzdsNzQuMDY2LTcxLjExN2wtNzQuMDYxLTcxLjEydjAuMDAyYy00LTMuODM4LTYuMi04Ljk2Mi02LjItMTQuNDI2czIuMi0xMC41OSw2LjItMTQuNDI4DQoJYzguMDY3LTcuNzQ3LDIxLjE4Ny03Ljc0OCwyOS4yNTQsMC4wMDJsOTguOTgsOTUuMDQ4YzEuMzQsMS4yODcsMi4wOTksMy4wNjUsMi4wOTksNC45MjRzLTAuNzU5LDMuNjM3LTIuMDk5LDQuOTI0bC05OC45ODcsOTUuMDQ5DQoJQzIyOS4zOTMsMjcxLjA5OSwyMjQuMDk0LDI3My4wMzYsMjE4LjgsMjczLjAzNnogTTIxOC44LDc1LjEwN2MtMS44ODYsMC0zLjc3MywwLjY3NC01LjE3MywyLjAyMWMtMS4yODcsMS4yMzktMiwyLjg2Ni0yLDQuNTgxDQoJYzAsMS43MTMsMC43MTMsMy4zMzgsMiw0LjU3N3YwLjAwMmw3OS4xODYsNzYuMDQ0YzEuMzQsMS4yODcsMi4wOTksMy4wNjUsMi4wOTksNC45MjRjMCwxLjg1OS0wLjc1OSwzLjYzNy0yLjA5OSw0LjkyNQ0KCWwtNzkuMTg2LDc2LjAzNGMtMS4yODcsMS4yNDItMiwyLjg3Mi0yLDQuNTg4YzAsMS43MTMsMC43MTMsMy4zNCwyLDQuNTgxYzIuODA3LDIuNjg1LDcuNTQsMi42OTcsMTAuMzM0LDAuMDAybDkzLjg2Ny05MC4xMjkNCglsLTkzLjg2Mi05MC4xMjlDMjIyLjU2Niw3NS43OCwyMjAuNjgxLDc1LjEwNywyMTguOCw3NS4xMDd6Ii8+DQo8Zz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRUEzNDU3OyIgZD0iTTEwNi41MDEsOTEuMjFjLTUuNDY2LTUuMjUtNS40NjYtMTMuNzU3LDAtMTkuMDA3YzUuNDY2LTUuMjUsMTQuMzI5LTUuMjUsMTkuNzk2LDBsOTguOTgzLDk1LjA0OQ0KCQlsLTk4Ljk4Myw5NS4wNDljLTUuNDY2LDUuMjUtMTQuMzI5LDUuMjUtMTkuNzk2LDBjLTUuNDY2LTUuMjUtNS40NjYtMTMuNzU3LDAtMTkuMDE0bDc5LjE4Ni03Ni4wMzVMMTA2LjUwMSw5MS4yMXoiLz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRUEzNDU3OyIgZD0iTTExNi40LDI3My4wMzVjLTUuMjk5LDAtMTAuNTkzLTEuOTM1LTE0LjYyNi01LjgwNmMtNC0zLjgzOC02LjItOC45Ni02LjItMTQuNDIzDQoJCWMwLTUuNDY2LDIuMi0xMC41OTUsNi4xOTMtMTQuNDM3bDc0LjA2Ni03MS4xMTdsLTc0LjA2MS03MS4xMnYwLjAwMmMtNC0zLjgzOC02LjItOC45NjItNi4yLTE0LjQyNnMyLjItMTAuNTksNi4yLTE0LjQyOA0KCQljOC4wNjctNy43NDcsMjEuMTg3LTcuNzQ1LDI5LjI1NC0wLjAwMmw5OC45OCw5NS4wNTFjMS4zNCwxLjI4NywyLjA5OSwzLjA2NSwyLjA5OSw0LjkyNHMtMC43NTksMy42MzctMi4wOTksNC45MjRsLTk4Ljk4LDk1LjA0OQ0KCQlDMTI2Ljk5MywyNzEuMDk5LDEyMS43MDEsMjczLjAzNSwxMTYuNCwyNzMuMDM1eiBNMTE2LjQsNzUuMTA3Yy0xLjg4NiwwLTMuNzczLDAuNjc0LTUuMTczLDIuMDIxYy0xLjI4NywxLjIzOS0yLDIuODY2LTIsNC41ODENCgkJYzAsMS43MTMsMC43MTMsMy4zMzgsMiw0LjU3N3YwLjAwMmw3OS4xODYsNzYuMDQ0YzEuMzQsMS4yODcsMi4wOTksMy4wNjUsMi4wOTksNC45MjRjMCwxLjg1OS0wLjc1OSwzLjYzNy0yLjA5OSw0LjkyNQ0KCQlsLTc5LjE4Niw3Ni4wMzRjLTEuMjg3LDEuMjQyLTIsMi44NzItMiw0LjU4OGMwLDEuNzEzLDAuNzEzLDMuMzQsMiw0LjU4MWMyLjgwMSwyLjY5LDcuNTQ3LDIuNjkxLDEwLjM0Ni0wLjAwMmw5My44NTUtOTAuMTI5DQoJCWwtOTMuODUzLTkwLjEyN0MxMjAuMTczLDc1Ljc4LDExOC4yODcsNzUuMTA3LDExNi40LDc1LjEwN3oiLz4NCjwvZz4NCjxwYXRoIHN0eWxlPSJmaWxsOiMwMEU3RkY7IiBkPSJNMTAuOTI4LDkxLjIxYy01LjQ2Ni01LjI1LTUuNDY2LTEzLjc1NywwLTE5LjAwN2M1LjQ2Ni01LjI1LDE0LjMyOS01LjI1LDE5Ljc5NiwwbDk4Ljk4Myw5NS4wNDkNCglsLTk4Ljk4Myw5NS4wNDljLTUuNDY2LDUuMjUtMTQuMzMxLDUuMjUtMTkuNzk2LDBjLTUuNDY2LTUuMjUtNS40NjYtMTMuNzU3LDAtMTkuMDE0bDc5LjE4Ni03Ni4wMzVMMTAuOTI4LDkxLjIxeiIvPg0KPHBhdGggc3R5bGU9ImZpbGw6IzYwMkY3NTsiIGQ9Ik0yMC44MiwyNzMuMDMxYy01LjI5NCwwLjAwMi0xMC41OTMtMS45MzQtMTQuNjE5LTUuODAzYy00LTMuODM4LTYuMi04Ljk2LTYuMi0xNC40MjMNCgljMC01LjQ2NiwyLjItMTAuNTk1LDYuMTkzLTE0LjQzN2w3NC4wNjYtNzEuMTE3TDYuMTk5LDk2LjEzMnYwLjAwMkMyLjIsOTIuMjk1LDAsODcuMTcyLDAsODEuNzA3czIuMi0xMC41OSw2LjItMTQuNDI4DQoJYzguMDU0LTcuNzM1LDIxLjE4Ny03Ljc0MSwyOS4yNTQtMC4wMDNsOTguOTgsOTUuMDUzYzEuMzQsMS4yODcsMi4wOTksMy4wNjUsMi4wOTksNC45MjRzLTAuNzU5LDMuNjM3LTIuMDk5LDQuOTI0bC05OC45OCw5NS4wNDkNCglDMzEuNDIsMjcxLjA5NiwyNi4xMjEsMjczLjAzMSwyMC44MiwyNzMuMDMxeiBNMjAuODI2LDc1LjA3NWMtMS44NzQsMC0zLjc0NiwwLjY4My01LjE3MywyLjA1MWMtMS4yODcsMS4yMzktMiwyLjg2NS0yLDQuNTgxDQoJYzAsMS43MTMsMC43MTMsMy4zMzgsMiw0LjU3N3YwLjAwMmw3OS4xODYsNzYuMDQ0YzEuMzQsMS4yODcsMi4wOTksMy4wNjUsMi4wOTksNC45MjRjMCwxLjg1OS0wLjc1OSwzLjYzNy0yLjA5OSw0LjkyNQ0KCWwtNzkuMTg2LDc2LjAzNGMtMS4yODcsMS4yNDItMiwyLjg3Mi0yLDQuNTg4YzAsMS43MTMsMC43MTMsMy4zNCwyLDQuNTgxYzIuODU0LDIuNzM0LDcuNDk0LDIuNzM0LDEwLjM0Ni0wLjAwM2w5My44NTUtOTAuMTI2DQoJTDI1Ljk5OSw3Ny4xMjZDMjQuNTczLDc1Ljc1OSwyMi43LDc1LjA3NSwyMC44MjYsNzUuMDc1eiIvPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=);" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Library</li>
+    </ol>
+</nav>
+
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Library</li>
+    </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+    </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Library</li>
+    </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Library</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Data</li>
+    </ol>
+</nav>
+
+<h1>Example heading <span class="badge bg-success">New</span></h1>
+<h2>Example heading <span class="badge bg-light">New</span></h2>
+<h3>Example heading <span class="badge bg-secondary">New</span></h3>
+<h4>Example heading <span class="badge bg-secondary">New</span></h4>
+<h5>Example heading <span class="badge bg-secondary">New</span></h5>
+<h6>Example heading <span class="badge bg-secondary">New</span></h6>
+
+<button type="button" class="btn btn-primary">
+    Notifications <span class="badge bg-secondary">4</span>
+</button>
+
+<div class="alert alert-primary d-flex align-items-center" role="alert">
+    <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill" /></svg>
+    <div>
+        An example alert with an icon
+    </div>
+</div>
+<div class="alert alert-success d-flex align-items-center" role="alert">
+    <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill" /></svg>
+    <div>
+        An example success alert with an icon
+    </div>
+</div>
+<div class="alert alert-warning d-flex align-items-center" role="alert">
+    <i class="bi bi-exclamation-triangle me-2"></i>
+    <div>
+        An example warning alert with an icon
+    </div>
+</div>
+<div class="alert alert-danger d-flex align-items-center" role="alert">
+    <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill" /></svg>
+    <div>
+        An example danger alert with an icon
+    </div>
+</div>
+
+<i class="bi bi-arrow-up-left-circle"></i>
+
+<div class="alert alert-primary" role="alert">
+    A simple primary alert with <a href="#">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-secondary" role="alert">
+    A simple secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-success" role="alert">
+    A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-danger" role="alert">
+    A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-warning" role="alert">
+    A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-info" role="alert">
+    A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-light" role="alert">
+    A simple light alert with <a href="#">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-dark" role="alert">
+    A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+
+<div class="alert alert-primary" role="alert">
+    A simple primary alert—check it out!
+</div>
+<div class="alert alert-secondary" role="alert">
+    A simple secondary alert—check it out!
+</div>
+<div class="alert alert-success" role="alert">
+    A simple success alert—check it out!
+</div>
+<div class="alert alert-danger" role="alert">
+    A simple danger alert—check it out!
+</div>
+<div class="alert alert-warning" role="alert">
+    A simple warning alert—check it out!
+</div>
+<div class="alert alert-info" role="alert">
+    A simple info alert—check it out!
+</div>
+<div class="alert alert-light" role="alert">
+    A simple light alert—check it out!
+</div>
+<div class="alert alert-dark" role="alert">
+    A simple dark alert—check it out!
+</div>
+
+<div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Accordion Item #1
+            </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #2
+            </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+            </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<script>
+    function test() {
+        var myCarousel = document.querySelector('#carouselExampleControls');
+        var carousel = new bootstrap.Carousel(carouselExampleControls, {
+            interval: 1000,
+            wrap: false
+        });
+
+    }
+    var exampleModal = document.getElementById('exampleModal');
+    exampleModal.addEventListener('show.bs.modal', function (event) {
+        // Button that triggered the modal
+        var button = event.relatedTarget
+        // Extract info from data-bs-* attributes
+        var recipient = button.getAttribute('data-bs-whatever')
+        // If necessary, you could initiate an AJAX request here
+        // and then do the updating in a callback.
+        //
+        // Update the modal's content.
+        var modalTitle = exampleModal.querySelector('.modal-title')
+        var modalBodyInput = exampleModal.querySelector('.modal-body input')
+
+        modalTitle.textContent = 'New message to ' + recipient
+        modalBodyInput.value = recipient
+    });
+
+    $(document).ready(function () {
+        $("body").tooltip({ selector: '[data-bs-toggle=tooltip]' });
+
+        $("[data-bs-toggle=popover]").popover();
+    });
+
+
+</script>

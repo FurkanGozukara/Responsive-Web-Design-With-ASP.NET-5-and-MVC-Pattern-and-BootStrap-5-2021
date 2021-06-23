@@ -1,0 +1,36 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model lecture_9.Models.Login
+
+@{
+    if (Model.userValues != null)
+    {
+        <div>logged in user's id : @Model.userValues.UserId</div>
+        <div>logged in user's first name : @Model.userValues.FirstName</div>
+        <div>logged in user's surname : @Model.userValues.LastName</div>
+        <div>logged in user's email : @Model.userValues.Email</div>
+    }
+    else
+            {
+                <div>no user is logged in yet</div>
+            }
+}
+
+<form method="post" asp-route="loginRoute">
+
+    <label asp-for="srFirstName"></label>
+    <input asp-for="srFirstName" value="" placeholder="please enter your first name" class="form-control" style="font-weight: bold; font-size: 120%;" />
+
+    <label asp-for="srEmail"></label>
+    <input asp-for="srEmail" value="" placeholder="please enter your email" class="form-control" style="font-weight: bold; font-size: 120%;" />
+    <input type="submit" value="send data back to server with model binding" />
+</form>
+
+<form method="post" asp-route="logoutRoute">
+
+    <input type="submit" value="log out user" />
+</form>

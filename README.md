@@ -1,17 +1,17 @@
-# Responsive-Web-Design-With-ASP.NET-5-and-MVC-Pattern-and-BootStrap-5-2021
+# ASP.NET Core MVC Full Course - C# And BootStrap Version - Responsive Web Programming With Tutorials 👨‍💻 (FREE) - 2023
 
-CSE338 Toros University - Responsive Web Design With ASP.NET 5 (previously named as ASP.NET Core) and MVC Pattern and BootStrap 5 | 2021
+Remastered videos of this course are available on https://www.youtube.com/@CodeInNet
 
-Discord Channel of the Course for every kind of questions and answers : https://discord.gg/6Mrb8MwteQ
+The remastered video playlist : https://www.youtube.com/playlist?list=PLdCdTIJgqkdFQ8pEZLZLsQIbze1KNEqWA
 
-This repository is dedicated to the Responsive Web Design With ASP.NET 5 and MVC Pattern and BootStrap, Toros University, Software Engineering Department
+Original videos of this course are available on https://www.youtube.com/@SECourses
 
-The course code is CSE338
+The original video playlist : https://www.youtube.com/playlist?list=PL_pbwdIyffslHaBdS3RUW26RKzSjkl8m4
 
-Course Teacher is PhD Furkan Gözükara, Room: A015
+Please join Discord and ask any questions : https://discord.com/servers/software-engineering-courses-secourses-772774097734074388
 
-Due to pandemic you can contact me by email and from discord anytime you wish. Discord is better
+If I have been of assistance to you and you would like to show your support for my work, please consider becoming a patron on 🥰 https://www.patreon.com/SECourses
 
-All of the announcements including homeworks and projects about the course will be published here
+Each Lecture Source Code is available in this repo. You can use git checkout to see each revision of the code.
 
-furkan.gozukara@toros.edu.tr
+If you need help please join discord and ask there by mentioning me (Dr. Furkan Gözükara)
